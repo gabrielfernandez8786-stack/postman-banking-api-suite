@@ -81,3 +81,66 @@ Ejecución completa de la suite con el **Collection Runner**:
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/gabrielfernandez8786-stack/postman-banking-api-suite.git
+
+   Opción 2: Newman (Línea de comandos)
+Instala Newman:
+
+bash
+npm install -g newman
+Ejecuta la suite:
+
+bash
+newman run postman/Retail-Banking-API.postman_collection.json \
+  -e postman/Banking-UAT.postman_environment.json
+👨‍💻 Autor
+Gabriel Fernandez
+
+LinkedIn: Tu Perfil
+
+GitHub: @gabrielfernandez8786-stack
+
+📝 Licencia
+Este proyecto es de uso educativo y de portafolio personal.
+
+text
+
+---
+
+### 📝 Instrucciones para actualizar el README:
+
+1.  **Ve al archivo `README.md`** en tu repositorio de GitHub.
+2.  Haz clic en el **ícono de lápiz ✏️** ("Edit this file").
+3.  **Selecciona todo** el contenido actual (`Ctrl + A`) y **bórralo**.
+4.  **Pega** el contenido completo que te di arriba (`Ctrl + V`).
+5.  Abajo, en el mensaje del commit, escribe:
+6.  6.  Haz clic en **"Commit changes"**.
+
+---
+
+### ✅ Verificación:
+
+1.  Recarga la página principal del repositorio con `Ctrl + F5`.
+2.  Baja hasta la sección **"📊 Resultados"**.
+3.  **La imagen del Runner debería aparecer ahora.** 📸
+
+---
+
+### 🎯 Cambios que hice respecto a tu versión actual:
+
+| Antes | Ahora |
+|-------|-------|
+| Imagen suelta después de las badges | Imagen dentro de la sección **"📊 Resultados"** |
+| Estructura básica | Estructura completa con tabla de contenidos |
+| Faltaban secciones | Se agregaron "Tecnologías", "Flujo de Pruebas", "Cómo Ejecutar", "Autor", "Licencia" |
+
+---
+
+### 💡 Nota final:
+
+Si después de hacer commit y recargar **la imagen sigue sin aparecer**, significa que hay un problema con el archivo `runner-results.png` dentro de `docs/images/`. En ese caso:
+
+1.  Ve a la carpeta `docs/images/`.
+2.  Verifica que el archivo se llame **exactamente** `runner-results.png` (sin espacios, sin mayúsculas raras).
+3.  Si el nombre es distinto, edita el README para que coincida.
+
+¡Dale y cuéntame cómo queda! 🚀
