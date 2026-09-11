@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Newman reports
+newman/
+reports/
+
+# Environment files with secrets
+*.env
